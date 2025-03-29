@@ -130,22 +130,7 @@
         <!-- Adicione mais cards conforme necessário -->
     </section>
 
-    <script>
-        function comprarViaWhatsApp(nomeProduto, precoProduto) {
-            const telefone = '5511999999999'; // Substituir pelo número correto
-            const mensagem = `Olá! Gostaria de comprar:
-            
-*Produto:* ${nomeProduto}
-*Preço:* R$ ${precoProduto}
-
-Poderia me ajudar?`;
-            
-            const mensagemCodificada = encodeURIComponent(mensagem);
-            window.open(`https://wa.me/${telefone}?text=${mensagemCodificada}`, '_blank');
-        }
-    </script>
-
-    <!-- Footer -->
+       <!-- Footer -->
 <footer class="main-footer">
     <div class="footer-content">
         <div class="footer-logo">
@@ -173,5 +158,22 @@ Poderia me ajudar?`;
         <p>Desenvolvido por Tallys Kronos - © 2024 Todos os direitos reservados</p>
     </div>
 </footer>
+
+    <script>
+        function comprarViaWhatsApp(nomeProduto, precoProduto) {
+            const telefone = '5511999999999'; // Substituir pelo número correto
+            const mensagem = `Olá! Gostaria de comprar:
+            
+*Produto:* ${nomeProduto}
+*Preço:* R$ ${precoProduto}
+
+Poderia me ajudar?`;
+            
+            const mensagemCodificada = encodeURIComponent(mensagem);
+            window.open(`https://wa.me/${telefone}?text=${mensagemCodificada}`, '_blank');
+        }
+    </script>
+
+ 
 </body>
 </html>
