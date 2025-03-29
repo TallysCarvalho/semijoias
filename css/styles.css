@@ -299,4 +299,10 @@ header {
     .produto-imagem {
         height: 200px;
     }
+    .hero {
+    
+    background: url('../src/banners/banner_mobile1.png') center/cover;
+                
+    
+}
 }
