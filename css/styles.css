@@ -292,6 +292,7 @@ header {
 
     .hero {
         background: url('../src/banners/banner_mobile1.png') center/cover;
+        }
 }
 
 @media (max-width: 480px) {
@@ -304,7 +305,5 @@ header {
     }
     .hero {
         background: url('../src/banners/banner_mobile1.png') center/cover;
-                
-    
-}
+    }
 }
