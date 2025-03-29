@@ -241,24 +241,6 @@ header {
     font-size: 0.9rem;
 }
 
-/* Responsividade Footer */
-@media (max-width: 768px) {
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .footer-menus {
-        flex-direction: column;
-        gap: 2rem;
-        align-items: center;
-    }
-
-    .footer-nav {
-        align-items: center;
-    }
-}
 
 /* Responsividade */
 @media (max-width: 768px) {
@@ -293,9 +275,25 @@ header {
     .hero {
         background: url('../src/banners/banner_mobile1.png') center/cover;
         }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-menus {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .footer-nav {
+        align-items: center;
+    }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 550px) {
     .produto-card {
         padding: 15px;
     }
