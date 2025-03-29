@@ -172,6 +172,94 @@ header {
     background: #101010;
 }
 
+/* Footer */
+.main-footer {
+    background: #1a1a1a;
+    color: white;
+    padding: 2rem 5%;
+    margin-top: 4rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #333;
+}
+
+.footer-logo-img {
+    width: 150px;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+
+.footer-menus {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.footer-nav h4,
+.footer-address h4 {
+    color: #b8860b;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.footer-nav a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: #b8860b;
+}
+
+.footer-address p {
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.creditos {
+    text-align: center;
+    padding: 1.5rem 0;
+    background: #000;
+    margin-top: 2rem;
+}
+
+.creditos p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Responsividade Footer */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-menus {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .footer-nav {
+        align-items: center;
+    }
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
     header {
